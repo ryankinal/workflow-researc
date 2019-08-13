@@ -86,7 +86,7 @@ jsPlumb.bind('ready', function() {
 					element.appendChild(connectionMenu.cloneNode(true));
 				}
 
-				endpoint = chart.addEndpoint(element, { anchor: 'Bottom', isSource: true, maxConnections: 16 })
+				endpoint = chart.addEndpoint(element, { anchor: 'Right', isSource: true, maxConnections: 16 })
 			}
 
 			dragging = false;
